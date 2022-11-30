@@ -21,7 +21,7 @@ body{
 .about {
     width: 100%;
     padding: 100px 0px;
-    background-color: #353535;
+    background-color: #515151;
 }
 .about img{
     height: auto;
@@ -44,11 +44,12 @@ body{
     letter-spacing: 1px;
     line-height: 28px;
     font-family: Ekkamai New;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 45px; 
 }
 
 .social img{
+    border-radius: 50%;
     padding: 10px;
     height: auto;;
     width: 60px;
