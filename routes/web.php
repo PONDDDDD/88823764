@@ -39,3 +39,7 @@ Route::get('/delete_user/{id}', [RegisterController::class, 'delete_user']);
 
 Route::get('/edit/{id}', [RegisterController::class, 'edit']);
 Route::patch('/update', [RegisterController::class, 'save_edit']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
