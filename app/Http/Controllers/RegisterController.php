@@ -57,7 +57,7 @@ class RegisterController extends MyController
         DB::update(
             'UPDATE users SET name=?, email=?, password=? WHERE id = ?',
             [$data['firstName']." ". $data['lastName'], $data['email'], $data['password'],
-              $data['id']]
+            $data['id']]
         );
 
         return redirect('/register');
